@@ -9,6 +9,17 @@ body {
   line-height: 1.5;
   color: #606c71; }
 
+.ribbon-container {
+	position:relative;
+	height:149px;
+	width:100%;
+	display:block;
+	margin-bottom:24px;
+	background:#ADABAB;
+}
+
+
+
 a {
   color: #1e6bb8;
   text-decoration: none; }
@@ -128,7 +139,7 @@ a {
   margin-bottom: 1rem;
   font: 1rem Consolas, "Liberation Mono", Menlo, Courier, monospace;
   color: #567482;
-  word-wrap: normal;
+  word-wrap: break-word;
   background-color: #f3f6fa;
   border: solid 1px #dce6f0;
   border-radius: 0.3rem; }
@@ -159,7 +170,7 @@ a {
   margin: 0;
   overflow: initial;
   line-height: inherit;
-  word-wrap: normal;
+  word-wrap: break-word;
   background-color: transparent;
   border: 0; }
   .main-content pre code:before, .main-content pre code:after, .main-content pre tt:before, .main-content pre tt:after {
