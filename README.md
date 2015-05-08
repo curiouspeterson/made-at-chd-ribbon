@@ -1,1 +1,1 @@
-# made-at-chd-ribbon
+# "Made at Comedy Hack Day" CSS ribbon
